@@ -1,15 +1,53 @@
-.background-image {
-    background-size: cover; 
-    background-position: center; 
-    
-    height: 100%; 
-    color: white; 
-  }
-  
-  .ion-padding {
-    background: rgba(0, 0, 0, 0.5); 
-    border-radius: 10px; 
-  }
-  ion-content {
-    --background: url('https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?semt=ais_hybrid&w=740') center center / cover;
-  }
+ion-page,
+ion-content {
+  height: 100vh;
+}
+
+.login-background {
+  --background: url('https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?semt=ais_hybrid&w=740') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.login-avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1rem auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.login-input {
+  margin-top: 1rem;
+}
+
+.login-button,
+.register-button {
+  margin-top: 1rem;
+}

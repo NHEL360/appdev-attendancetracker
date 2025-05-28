@@ -24,7 +24,7 @@ const Feed: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>IT35C APPLICATION DEVELOPMENT</IonTitle>
+          <IonTitle>IAS APPLICATION DEVELOPMENT</IonTitle>
         </IonToolbar>
       </IonHeader>
 
