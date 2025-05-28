@@ -14,7 +14,7 @@ import { createClient } from '@supabase/supabase-js';
 import './Login.css'; 
 
 // Initialize Supabase client
-const supabase = createClient('https://ypmhcyklosieqqfhdsrz.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlwbWhjeWtsb3NpZXFxZmhkc3J6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI3NzQxNjUsImV4cCI6MjA1ODM1MDE2NX0.FebBjZYn-wTMMCdYrA9F8kcf8vCtQ7tz4yfhVxH9ayg');
+const supabase = createClient('https://vrjwimgpnkarmqswugay.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZyandpbWdwbmthcm1xc3d1Z2F5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgzMjIzODQsImV4cCI6MjA2Mzg5ODM4NH0.9qr1KNuozKu0Zo_B9F-Lm0wLBKuqzXOFWvzrpctzvDE');
 
 const AlertBox: React.FC<{ message: string; isOpen: boolean; onClose: () => void }> = ({ message, isOpen, onClose }) => {
   return (
