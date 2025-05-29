@@ -118,7 +118,7 @@ const Login: React.FC = () => {
         <div className="login-wrapper">
           <div className="login-card">
             <IonAvatar className="login-avatar">
-              <img src="https://media.istockphoto.com/id/1268716253/vector/freshman-black-glyph-icon.jpg" alt="Logo" />
+              <img src="https://thumbs.dreamstime.com/b/employee-attendance-icon-job-ontime-vector-design-human-avatar-wall-clock-displaying-employee-schedule-icon-abstract-vector-242385430.jpg" alt="Logo" />
             </IonAvatar>
 
             <h1 className="login-title">Welcome Back</h1>
